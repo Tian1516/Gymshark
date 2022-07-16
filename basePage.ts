@@ -3,9 +3,9 @@ const chromedriver = require("chromedriver")
 
 interface Options {
     driver?: WebDriver;
-    /* if no driver is supplied, we make one or use the constructor to make one /
+    /* if no driver is supplied, we make one or use the constructor to make one */
     url?: string; 
-    / oh my gosh samezies*/
+    /* oh my gosh samezies*/
 }
 
 export class BasePage {
